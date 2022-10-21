@@ -6,24 +6,35 @@ main=document.getElementById('main')
 aboutme=document.getElementById('aboutme')
 bk3=document.getElementsByClassName('block3')
 fl=document.getElementById('friendlylinks')
+
 frindlink_timeout=function () {
+
     fl.style.height='30vh';
+
+
 }
 friends_timeout=function () {
+
     friends.style.height='50vh';
+
 }
 blog_timeout=function () {
+
     blog.style.height='120vh';
+
 }
 clickevent=function () {
     if (type===0){
+        fl.style.display='block'
+        friends.style.display='block'
+        blog.style.display='block'
         aboutme.style.height='0vh';
         aboutme.style.display='none';
         main.style.height='auto';
         arrow.style.display='none';
-        setTimeout(frindlink_timeout,200);
-        setTimeout(friends_timeout,1400);
-        setTimeout(blog_timeout,2700);
+        setTimeout(frindlink_timeout,50);
+        setTimeout(friends_timeout,300);
+        setTimeout(blog_timeout,1500);
         type=1;
     }
 }
