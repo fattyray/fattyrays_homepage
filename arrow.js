@@ -7,7 +7,7 @@ aboutme=document.getElementById('aboutme')
 bk3=document.getElementsByClassName('block3')
 fl=document.getElementById('friendlylinks')
 frindlink_timeout=function () {
-    fl.style.height='40vh';
+    fl.style.height='30vh';
 }
 friends_timeout=function () {
     friends.style.height='50vh';
@@ -18,11 +18,12 @@ blog_timeout=function () {
 clickevent=function () {
     if (type===0){
         aboutme.style.height='0vh';
+        aboutme.style.display='none';
         main.style.height='auto';
         arrow.style.display='none';
         setTimeout(frindlink_timeout,200);
         setTimeout(friends_timeout,1400);
-        setTimeout(blog_timeout,3000);
+        setTimeout(blog_timeout,2700);
         type=1;
     }
 }
