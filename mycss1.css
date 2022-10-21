@@ -249,8 +249,8 @@ h3{
 }
 .blogs_pic{
     float: left;
-    width: 40%;
-    height: 50%;
+    width: 30%;
+    height: 100%;
 
     background-image: url("default2.png");
     background-repeat: no-repeat;
