@@ -7,6 +7,17 @@ aboutme=document.getElementById('aboutme')
 bk3=document.getElementsByClassName('block3')
 fl=document.getElementById('friendlylinks')
 
+selected=document.getElementsByClassName('blogs');
+allshow=function () {
+
+    for (const elem of selected) {
+        elem.style.width='45%'
+        elem.style.borderStyle='solid'
+    }
+}
+
+
+
 frindlink_timeout=function () {
 
     fl.style.height='30vh';
@@ -35,6 +46,7 @@ clickevent=function () {
         setTimeout(frindlink_timeout,50);
         setTimeout(friends_timeout,300);
         setTimeout(blog_timeout,1500);
+        setTimeout(allshow,3500)
         type=1;
     }
 }
