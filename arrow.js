@@ -11,27 +11,46 @@ selected=document.getElementsByClassName('blogs');
 allshow=function () {
 
     for (const elem of selected) {
-        elem.style.width='45%'
-        elem.style.borderStyle='solid'
+        pic=elem.firstElementChild;
+        tit=pic.nextElementSibling;
+        dis=tit.nextElementSibling;
+        elem.style.width='46vw';
+        pic.style.width='20vw';
+        tit.style.width='26vw';
+        dis.style.width='26vw';
+
+    }
+}
+
+allshow_end=function () {
+
+    for (const elem of selected) {
+        pic=elem.firstElementChild;
+        tit=pic.nextElementSibling;
+        dis=tit.nextElementSibling;
+        elem.style.borderStyle='solid';
+        elem.style.transition='width 0.1s'
+        pic.style.transition='width 0.1s';
+        tit.style.transition='width 0.1s';
+        dis.style.transition='width 0.1s';
     }
 }
 
 
-
 frindlink_timeout=function () {
 
-    fl.style.height='30vh';
+    fl.style.height='60vw';
 
 
 }
 friends_timeout=function () {
 
-    friends.style.height='50vh';
+    friends.style.height='50vw';
 
 }
 blog_timeout=function () {
 
-    blog.style.height='120vh';
+    blog.style.height='50vw';
 
 }
 clickevent=function () {
@@ -46,7 +65,8 @@ clickevent=function () {
         setTimeout(frindlink_timeout,50);
         setTimeout(friends_timeout,300);
         setTimeout(blog_timeout,1500);
-        setTimeout(allshow,3500)
+        setTimeout(allshow,3000);
+        setTimeout(allshow_end,4700);
         type=1;
     }
 }

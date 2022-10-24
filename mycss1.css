@@ -66,11 +66,11 @@ body{
 }
 main{
     background-color: rgba(200,200,200,0.4);
-    width: 95%;
+    width: 99%;
     height: auto;
     position: relative;
     top: 15vh;
-    margin-left: 2.5%;
+    margin-left: auto;
     float: top;
 }
 #aboutme{
@@ -91,6 +91,7 @@ main{
     border-color: grey;
     border-radius: 2%;
     border-style: solid;
+    position: relative;
 }
 #friends{
     display: none;
@@ -189,7 +190,7 @@ h3{
     border-color: azure;
     box-shadow: 6px 4px 8px whitesmoke;
     width: 18vw;
-    height: 14vw;
+    height: 10vw;
     position: relative;
     float: left;
 }
@@ -219,7 +220,7 @@ h3{
     display: block;
     float: right;
     width: 18vw;
-    height: 10vw;
+    height: 6vw;
 }
 .frindinfo h3{
     padding: 0;
@@ -234,26 +235,24 @@ h3{
 .blogs{
     overflow: hidden;
     margin-top: 3vh;
-    margin-right: 2px;
-    width:45%;
-    height: 20vh;
-    padding: 2px;
-    border-width: 2px;
+    width:48vw;
+    height: 20vw;
+    border-width: 1px;
     border-radius: 5%;
     border-color: azure;
     border-style: hidden;
-    margin-left: 3px;
+    margin-left: 1px;
     float: left;
-    transition:width 2.6s ease;
+    transition:width 1.6s ease;
     position: relative;
 }
 .blogs_pic{
     float: left;
-    width: 30%;
+    width: 0vw;
     height: 100%;
-
     background-image: url("default2.png");
     background-repeat: no-repeat;
+    transition:width 1.6s ease;
     background-size: 100% 100%;
 
 }
@@ -263,8 +262,11 @@ h3{
 }
 .blogs_title{
     float: right;
-    width: 60%;
+    width: 0vw;
     height: 20%;
+    transition:width 1.6s ease;
+    margin: 0;
+    padding: 0;
 
 }
 .blogs_title a{
@@ -272,9 +274,11 @@ h3{
 }
 .blogs_description{
     float: right;
-    width: 60%;
+    width: 0vw;
     height: 79%;
-
+    transition:width 1.6s ease;
+    margin: 0;
+    padding: 0;
 }
 .blogs_description a{
     text-decoration: none;
