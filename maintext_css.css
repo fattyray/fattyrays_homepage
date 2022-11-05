@@ -1,0 +1,18 @@
+body{
+    background-image: url("blog_cover.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+main{
+    background-color: rgba(249,231,255,0.7);
+    width: 98%;
+    margin-left: auto;
+    height: 150vh;
+}
+h1{
+    margin-left: auto;
+    font-weight: bold;
+    font-family: Consolas, serif;
+    text-align: center;
+}

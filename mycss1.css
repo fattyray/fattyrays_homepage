@@ -245,6 +245,7 @@ h3{
     float: left;
     transition:width 1.6s ease;
     position: relative;
+    font-size: 25px;
 }
 .blogs_pic{
     float: left;

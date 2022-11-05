@@ -45,7 +45,7 @@ frindlink_timeout=function () {
 }
 friends_timeout=function () {
 
-    friends.style.height='50vw';
+    friends.style.height='90vw';
 
 }
 blog_timeout=function () {
