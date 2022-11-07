@@ -44,14 +44,15 @@ frindlink_timeout=function () {
 
 }
 friends_timeout=function () {
-
-    friends.style.height='90vw';
+    wide=window.screen.width;
+    if (wide<1000)
+        friends.style.height='180vw';
+    else
+        friends.style.height='70vw';
 
 }
 blog_timeout=function () {
-
-    blog.style.height='50vw';
-
+    blog.style.height='40vw';
 }
 clickevent=function () {
     if (type===0){

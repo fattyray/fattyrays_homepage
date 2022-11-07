@@ -194,10 +194,11 @@ h3{
     position: relative;
     float: left;
 }
+
 .frindphoto{
     display: block;
-    width:4vw ;
-    height: 4vw;
+    width:25% ;
+    height: 40%;
     border-radius: 50%;
     float: left;
 
@@ -209,8 +210,8 @@ h3{
 }
 .frindname{
     display: block;
-    width: 12vw;
-    height:4vw;
+    width: 74%;
+    height:40%;
     float: left;
     color: azure;
     font-weight: bold;
@@ -219,33 +220,57 @@ h3{
 .frindinfo{
     display: block;
     float: right;
-    width: 18vw;
-    height: 6vw;
+    width: 100%;
+    height: 55%;
+    margin-top: 5%;
 }
 .frindinfo h3{
     padding: 0;
     margin: 0;
     color: azure;
-    font-size: xx-small;
+}
+@media screen and (max-width: 990px) {
+    .friendnametag{
+        width: 26vw;
+        height: 20vw;
+        font-size: 18px;
+    }
+    .frindphoto{
+        width:25% ;
+        height: 25%;
+    }
+    .frindname {;
+        height: 25%;
+    }
+    .frindinfo{
+
+        height: 70%;
+    }
 
 }
-
 
 
 .blogs{
     overflow: hidden;
     margin-top: 3vh;
     width:48vw;
-    height: 20vw;
+    height: 18vw;
     border-width: 1px;
     border-radius: 5%;
     border-color: azure;
     border-style: hidden;
     margin-left: 1px;
     float: left;
-    transition:width 1.6s ease;
+    transition:width 3s ease;
     position: relative;
     font-size: 25px;
+}
+@media screen and (max-width: 990px){
+    .blogs{
+        height: 34vw;
+        font-size: 14px;
+    }
+
 }
 .blogs_pic{
     float: left;
@@ -253,7 +278,7 @@ h3{
     height: 100%;
     background-image: url("default2.png");
     background-repeat: no-repeat;
-    transition:width 1.6s ease;
+    transition:width 3s ease;
     background-size: 100% 100%;
 
 }
@@ -265,7 +290,7 @@ h3{
     float: right;
     width: 0vw;
     height: 20%;
-    transition:width 1.6s ease;
+    transition:width 3s ease;
     margin: 0;
     padding: 0;
 
