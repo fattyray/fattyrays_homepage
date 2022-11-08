@@ -183,6 +183,9 @@ main{
     #info h1{
         font-size: 30px;
     }
+    #info h2{
+        font-size: 36px;
+    }
 
 }
 b{
@@ -247,17 +250,18 @@ h3{
     .friendnametag{
         width: 26vw;
         height: 20vw;
-        font-size: 18px;
+
     }
     .frindphoto{
         width:25% ;
         height: 25%;
     }
-    .frindname {;
+    .frindname {
+        font-size: 22px;
         height: 25%;
     }
     .frindinfo{
-
+        font-size: 20px;
         height: 70%;
     }
 
