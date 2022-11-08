@@ -13,6 +13,7 @@ xhr.onreadystatechange=function (){
             let pic_name=pic.name;
             let pic_url=pic.avatar;
             let id=pic.id;
+
             let box1=document.createElement('div')
             box1.setAttribute('class','boxs')
             xx.appendChild(box1);

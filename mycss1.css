@@ -54,6 +54,7 @@ header{
     width: 6vw;
     height: 100%;
 }
+
 img{
     width: 100%;
     height: 100%;
@@ -170,6 +171,19 @@ main{
     margin:auto;
     border-style: solid;
     padding: 2vh ;
+    font-size: 20px;
+}
+@media screen and (max-width: 990px){
+    .border1{
+        font-size: 25px;
+    }
+    #info h3{
+        font-size: 22px;
+    }
+    #info h1{
+        font-size: 30px;
+    }
+
 }
 b{
     color: lemonchiffon;
