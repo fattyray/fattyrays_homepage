@@ -254,15 +254,15 @@ h3{
     }
     .frindphoto{
         width:25% ;
-        height: 25%;
+        height: 33%;
     }
     .frindname {
         font-size: 22px;
-        height: 25%;
+        height: 33%;
     }
     .frindinfo{
         font-size: 20px;
-        height: 70%;
+        height: 67%;
     }
 
 }
@@ -288,6 +288,9 @@ h3{
         height: 34vw;
         font-size: 14px;
     }
+    .blogs_description{
+        font-size: 12px;
+    }
 
 }
 .blogs_pic{
@@ -307,7 +310,7 @@ h3{
 .blogs_title{
     float: right;
     width: 0vw;
-    height: 20%;
+    height: 30%;
     transition:width 3s ease;
     margin: 0;
     padding: 0;
@@ -319,7 +322,7 @@ h3{
 .blogs_description{
     float: right;
     width: 0vw;
-    height: 79%;
+    height: 70%;
     transition:width 1.6s ease;
     margin: 0;
     padding: 0;
